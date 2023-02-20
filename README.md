@@ -13,7 +13,7 @@ Shellcode:
 ```
 git clone https://github.com/XaFF-XaFF/Assembler-MessageBox.git
 cd Assembler-MessageBox
-nasm shellcode -o shell.bin
+nasm shellcode.asm -o shell.bin
 ```
 Copy bytes (for example with: HxD) and paste them into your shellcode injector.
 
